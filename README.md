@@ -24,7 +24,7 @@ The MCU can be reprogrammed via SWD interface, connected as following:
 There are two LEDs that can be controller by the MCU, marked as RXD and TXD, via GPIO pins **PA6** and **PA7**. The pins must be set to 0 for the LEDs to turn on.
 
 ### Button
-There is a push button on a side of the device connected to PA5. The pin must be pulled up to read 1 when button is not pressed, and 0 when it is pressed.
+There is a push button on a side of the device connected to **PA5**. The pin must be pulled up to read 1 when button is not pressed, and 0 when it is pressed.
 
 ### Serial port
 The device is using [CH343 USART to USB converter](https://www.wch-ic.com/products/CH343.html). It is connected to **USART1** of the MCU.
